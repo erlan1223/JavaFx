@@ -32,6 +32,7 @@ public class Controller implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         System.out.println();
+        System.out.println(1);
         questionArea.setText(question);
         answer1.setText(variants[0]);
         answer2.setText(variants[1]);
